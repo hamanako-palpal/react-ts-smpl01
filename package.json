@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamanako-palpal/react-ts-smpl01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamanako-palpal/react-ts-smpl01/issues"
+  },
+  "homepage": "https://github.com/hamanako-palpal/react-ts-smpl01#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
